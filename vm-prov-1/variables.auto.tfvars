@@ -7,7 +7,7 @@ organization = "CSSLAB"
 ## vSphere access
 vsphere_server = "csslab-rtp-vc-01.cisco.com"
 vsphere_user = "administrator@vsphere.local"
-vsphere_datacenter= ""
+vsphere_datacenter= "RTP"
 vsphere_cluster = "CSS-Cluster-HX"
 vsphere_datastore= "HXDS-1"
 vsphere_vm_template = "CentOS-7-min"
