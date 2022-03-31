@@ -1,4 +1,4 @@
-## Provider #
+## Provider ##
 
 terraform {
   required_providers {
@@ -49,12 +49,12 @@ data "vsphere_network" "vlan-109" {
   datacenter_id = data.vsphere_datacenter.dc.id
 }
 
-resource "random_string" "folder_name_prefix" {
-  length    = 10
-  min_lower = 10
-  special   = false
-  lower     = true
-}
+#resource "random_string" "folder_name_prefix" {
+#  length    = 10
+#  min_lower = 10
+#  special   = false
+#  lower     = true
+#}
 
 ## Resources
 
